@@ -246,34 +246,41 @@ ul#nav li.current a {
   color: #fff;
   margin-bottom: 12px;
 }
+
+#about .row .row p {
+  flex: 1;
+}
+
 #about p {
   line-height: 30px;
   color: #7a7a7a;
 }
+
+#about .skill-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
 #about .profile-pic {
   position: relative;
   width: 120px;
   height: 120px;
   border-radius: 100%;
+  flex-shrink: 0;
 }
-#about .contact-details {
-  width: 41.66667%;
+
+#about .skill-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-right: 4rem;
 }
 
 #about .main-col {
   padding-right: 5%;
-}
-#about .download .button {
-  margin-top: 6px;
-  background: #444;
-}
-#about .download .button:hover {
-  background: #fff;
-  color: #2b2b2b;
-}
-#about .download .button i {
-  margin-right: 15px;
-  font-size: 20px;
 }
 
 /* ------------------------------------------------------------------ */
