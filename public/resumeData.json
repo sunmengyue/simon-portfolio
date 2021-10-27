@@ -14,22 +14,22 @@
       "state": "Massachusetts",
       "zip": "02148"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "website": "https://github.com/sunmengyue",
+    "resumedownload": "https://drive.google.com/file/d/1Haq4Lhtk96soVYJIHiw4oaksINUj9231/view?usp=sharing",
     "social": [
       {
         "name": "email",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "mailto: mengyuesun@gmail.com",
         "className": "fa fa-envelope"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/simon-sun-64398985/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/sunmengyue",
         "className": "fa fa-github"
       }
     ]
@@ -72,28 +72,6 @@
       {
         "name": "Web Development",
         "level": "95%"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Snapchat Clone (React JS)",
-        "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
-      },
-      {
-        "title": "Gmail Clone (React JS)",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
-      },
-      {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
       }
     ]
   }

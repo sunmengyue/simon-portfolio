@@ -10,7 +10,7 @@ const Header = ({ data }) => {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="_blank">
             <i className={network.className}></i>
           </a>
         </li>
@@ -37,23 +37,12 @@ const Header = ({ data }) => {
           </li>
           <li>
             <a className="smoothscroll" href="#about">
-              About
+              About & Skills
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#resume">
               Resume
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#portfolio">
-              Works
-            </a>
-          </li>
-
-          <li>
-            <a className="smoothscroll" href="#contact">
-              Contact
             </a>
           </li>
         </ul>
@@ -75,7 +64,7 @@ const Header = ({ data }) => {
           <ul className="social">{networks}</ul>
           <div className="download">
             <p>
-              <a href={resumeDownload} className="button">
+              <a href={resumeDownload} className="button" target="_blank">
                 <i className="fa fa-download" style={{ marginRight: 5 }}></i>
                 Download Resume
               </a>
