@@ -294,6 +294,12 @@ ul#nav li.current a {
   overflow: hidden;
 }
 
+#portfolio .project {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
 #portfolio a,
 #portfolio a:visited {
   color: #f06000;
@@ -590,6 +596,10 @@ footer {
   font-size: 14px;
   text-align: center;
   position: relative;
+}
+
+footer .action {
+  color: rgb(122, 122, 122);
 }
 
 footer a,

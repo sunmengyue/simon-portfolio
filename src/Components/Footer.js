@@ -17,6 +17,7 @@ const Footer = ({ data }) => {
     <footer>
       <div className="row">
         <div className="twelve columns">
+          <h3 className="action">Looking for a developer ? Let's talk!</h3>
           <ul className="social-links">{networks}</ul>
         </div>
         <div id="go-top">

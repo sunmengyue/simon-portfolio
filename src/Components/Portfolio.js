@@ -34,9 +34,8 @@ const Portfolio = ({ data }) => {
               Github repo
             </a>
           </div>
-          <br />
         </div>
-
+        <br />
         <div className="nine columns">
           <div className="portfolio-img-container mstyle-container">
             <a href={mhref} target="_blank">
@@ -47,7 +46,6 @@ const Portfolio = ({ data }) => {
           <div>{mdes1}</div>
           <div>{mdes2}</div>
         </div>
-        <br />
       </div>
 
       {/* remote optimal */}
