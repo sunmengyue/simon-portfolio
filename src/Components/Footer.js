@@ -5,7 +5,7 @@ const Footer = ({ data }) => {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url} target="_blank">
+          <a href={network.url} target="_blank" rel="noreferrer">
             <i className={network.className}></i>
           </a>
         </li>
@@ -17,7 +17,10 @@ const Footer = ({ data }) => {
     <footer>
       <div className="row">
         <div className="twelve columns">
-          <h3 className="action">Looking for a developer ? Let's talk!</h3>
+          <h3 className="action">
+            Looking for a developer ? Feel free to click the email icon below,
+            or contact me at mengyuesun@gmail.com
+          </h3>
           <ul className="social-links">{networks}</ul>
         </div>
         <div id="go-top">

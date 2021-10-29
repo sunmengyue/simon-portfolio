@@ -25,12 +25,22 @@ const Portfolio = ({ data }) => {
           </h1>
 
           <div>
-            <a href={mhref} target="_blank" className="redirect">
+            <a
+              href={mhref}
+              target="_blank"
+              rel="noreferrer"
+              className="redirect"
+            >
               live site
             </a>
           </div>
           <div>
-            <a href={mgithub} target="_blank" className="redirect">
+            <a
+              href={mgithub}
+              target="_blank"
+              rel="noreferrer"
+              className="redirect"
+            >
               Github repo
             </a>
           </div>
@@ -38,7 +48,7 @@ const Portfolio = ({ data }) => {
         <br />
         <div className="nine columns">
           <div className="portfolio-img-container mstyle-container">
-            <a href={mhref} target="_blank">
+            <a href={mhref} target="_blank" rel="noreferrer">
               <img src={imgSrcM} alt="mtyle" />
             </a>
           </div>
@@ -56,12 +66,22 @@ const Portfolio = ({ data }) => {
           </h1>
 
           <div>
-            <a href={rhref} target="_blank" className="redirect">
+            <a
+              href={rhref}
+              target="_blank"
+              rel="noreferrer"
+              className="redirect"
+            >
               live site
             </a>
           </div>
           <div>
-            <a href={rgithub} target="_blank" className="redirect">
+            <a
+              href={rgithub}
+              target="_blank"
+              rel="noreferrer"
+              className="redirect"
+            >
               Github repo
             </a>
           </div>
@@ -70,7 +90,7 @@ const Portfolio = ({ data }) => {
 
         <div className="nine columns main-col">
           <div className="portfolio-img-container remote-container">
-            <a href={rhref} target="_blank">
+            <a href={rhref} target="_blank" rel="noreferrer">
               <img src={imgSrcR} alt="mstyle" />
             </a>
           </div>

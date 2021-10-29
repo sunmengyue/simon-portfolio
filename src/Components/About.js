@@ -102,7 +102,7 @@ const About = ({ data }) => {
               <div>
                 <img
                   className="skill-icon"
-                  src="./images/skills/mongodb.png"
+                  src="./images/skills/mongoDB.png"
                   alt="mongodb"
                 />
               </div>
