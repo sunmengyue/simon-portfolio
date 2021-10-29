@@ -15,7 +15,7 @@
       "zip": "02148"
     },
     "website": "https://github.com/sunmengyue",
-    "resumedownload": "https://drive.google.com/file/d/1Haq4Lhtk96soVYJIHiw4oaksINUj9231/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/16yW8fV4Dd86zSEuPbwg3gA6UH7ZKikJi/view?usp=sharing",
     "social": [
       {
         "name": "email",
@@ -32,47 +32,22 @@
         "url": "https://github.com/sunmengyue",
         "className": "fa fa-github"
       }
-    ]
-  },
-  "resume": {
-    "skillmessage": "My Programming Language Proficiency",
-    "education": [
-      {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
-      }
     ],
-    "work": [
-      {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
-      }
-    ],
-    "skills": [
-      {
-        "name": "ReactJs",
-        "level": "100%"
-      },
-      {
-        "name": "Python",
-        "level": "85%"
-      },
-      {
-        "name": "Git",
-        "level": "70%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "99%"
-      },
-      {
-        "name": "Web Development",
-        "level": "95%"
-      }
-    ]
+    "mstyle": {
+      "imgSrc": "./images/portfolio/mstyle.png",
+      "techStack": "React, Redux, Tailwind CSS, Node.js, Express, MongoDB, Mongoose",
+      "description1": "MStyle is a simulated e-commerce web application. Source data was originally from Fakestore API and later modified with and stored in MongoDB. You can browse products, search for a particular product of interest, sort products based on name, price, and rating, toggle the number of products in your shopping bag, checkout with PayPal, review your orders and update your profile.",
+      "description2": "I used Redux for better state management for users, products, orders, and shopping cart products in this project. With Redux, communication between components is much easier, and I don't need to trace back to the parent and pass down data from one component to another. Meanwhile, with simple inline utility classes of Tailwind CSS, I don't have to keep coming up with hassle class names to style my components. Tailwind's utility classes also enable quick shorthand for responsive layouts for different screen sizes.",
+      "demoLink": "https://mstyleecommerceapp.herokuapp.com/",
+      "githubLink": "https://github.com/sunmengyue/mstyle"
+    },
+    "remoteOptimal": {
+      "imgSrc": "./images/portfolio/remote-optimal.png",
+      "techStack": "React, React Context API",
+      "description1": "Remote Optimal is a web app that helps people land a remote career by enabling browse hundreds of remote jobs, search jobs by category and keywords, save and manage jobs of interest.",
+      "description2": "I built a router with React components from scratch for this project, instead of using React Router. One problem using React Router is that when navigating from item list to item details page, if we refresh the browser without fetching data from the API independently, we will not be able to get the original data and will see a bunch of 'item is undefined' errors. Thus, on the item details page, we need to fetch the particular item data with the route provided by the API we use. However, a lot of times, the third-party API only provides one route to get a whole list of items, which makes it impossible to independently fetch a single item's data through another route by its id. That's the reason I created the Route and Link components. Once the URL changes in the Link component, the Link pops state. The Route component has an event listener waiting to catch the state, and then render the item details content.",
+      "demoLink": "https://remote-optimal.web.app/",
+      "githubLink": "https://github.com/sunmengyue/remote-jobs"
+    }
   }
 }

@@ -52,7 +52,7 @@ jQuery(document).ready(function ($) {
       var active_section;
 
       active_section = $(this);
-      console.log(active_section);
+
       if (direction === 'up') active_section = active_section.prev();
 
       var active_link = $(

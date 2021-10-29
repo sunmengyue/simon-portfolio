@@ -158,11 +158,6 @@ pre {
   word-wrap: break-word;
 }
 
-blockquote,
-q {
-  quotes: &#8220 &#8220;
-}
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -281,8 +276,6 @@ h5 {
 h6 {
   font-size: 14px;
   line-height: 30px;
-}
-.subheader {
 }
 
 p {
