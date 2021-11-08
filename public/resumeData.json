@@ -46,7 +46,7 @@
       "techStack": "React, React Context API",
       "description1": "Remote Optimal is a web app that helps people land a remote career by enabling browse remote jobs, search jobs by category and keywords, save and manage jobs of interest. The app uses remoteOk api (https://remote-optimal.herokuapp.com/)",
       "description2": "I built a router with React components from scratch for this project, instead of using React Router. One problem using React Router is that when navigating from item list to item details page, if we refresh the browser without fetching data from the API independently, we will not be able to get the original data and will see a bunch of 'item is undefined' errors. Thus, on the item details page, we need to fetch the particular item data with the route provided by the API we use. However, a lot of times, the third-party API only provides one route to get a whole list of items, which makes it impossible to independently fetch a single item's data through another route by its id. That's the reason I created the Route and Link components. Once the URL changes in the Link component, the Link pops state. The Route component has an event listener waiting to catch the state, and then render the item details content.",
-      "demoLink": "https://remote-optimal.herokuapp.com/",
+      "demoLink": "https://remote-jobs-sable.vercel.app/",
       "githubLink": "https://github.com/sunmengyue/remote-jobs"
     }
   }
